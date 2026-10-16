@@ -82,6 +82,6 @@ I used Chatgpt after coding to debug my css where the author's name at the botto
 
 ## Author
 
-- Frontend Mentor - [@Arkharois](https://www.frontendmentor.io/profile/Arkharios)
-- GitHub - [@Arkharois](https://github.com/Arkharios)
+- Frontend Mentor - [@Arkharios](https://www.frontendmentor.io/profile/Arkharios)
+- GitHub - [@Arkharios](https://github.com/Arkharios)
 
