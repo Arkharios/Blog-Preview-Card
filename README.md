@@ -35,7 +35,7 @@ The goal of this challenge was to build a Blog preview card that slightly change
 
 ### Links
 
-- Solution URL: [Blog preview card](https://your-solution-url.com)
+- Solution URL: [Blog preview card](https://arkharios.github.io/Blog-Preview-Card)
 
 ## My process
 
