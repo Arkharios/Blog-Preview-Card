@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-yellow: hsl(47, 88%, 63%);
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-gray:hsl(0, 0%, 42%);
+    --dark-gray: hsl(0, 0%, 7%);
+    --dark-blue: hsl(228, 45%, 44%);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 500;
+    background-color: var(--clr-yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.6rem;
+    min-height: 100vh;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 37rem;
+    width: 90%;
+}
+
+.card {
+    background-color: var(--clr-white);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    border: 0.1rem solid var(--dark-gray);
+    border-radius: 2rem;
+    padding: 2.5rem;
+    box-shadow: 0.8rem 0.8rem 0rem var(--dark-gray);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 1rem 1rem 0rem var(--dark-gray);
+}
+
+.card .card-image {
+    width: 100%;
+    height: 20rem;
+    overflow: hidden;
+    border-radius: 1.5rem;
+}
+
+.card .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-content {
+    margin-top: 2.5rem;
+}
+
+span {
+    display: block;
+    background-color: var(--clr-yellow);
+    color: var(--dark-gray);
+    padding: 0.5rem;
+    font-weight: 800;
+    font-size: 1.37rem;
+    border-radius: 0.5rem;
+    max-width: 8rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin: 1.3rem 0;
+    color: var(--dark-gray);
+    font-weight: 800;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.card:hover h1 {
+    color: var(--clr-yellow);
+}
+
+h5  {
+    font-size: 1.3rem;
+    margin: 1.3rem 0;
+    color: var(--dark-gray);
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.547rem;
+    color: var(--clr-gray);
+    line-height: 1.4;
+    margin-bottom: 2.7rem;
+    max-width: 33rem;
+}
+
+.card-author {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.author-avatar {
+    width: 3rem;
+}
+
+.author-name {
+    font-size: 1.5rem;
+    color: var(--dark-gray);
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.attribution { 
+    font-size: 1.2rem; 
+    text-align: center; 
+    margin-top: 2.5rem;
+}
+
+.attribution a { color: var(--dark-blue); }
